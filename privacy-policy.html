@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScreenPeek — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65; max-width: 44rem; margin: 0 auto; padding: 2.5rem 1rem 4rem;
+    color: #1a1a1a; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #121318; } }
+  h1 { font-size: 1.9rem; margin-bottom: .2rem; }
+  h2 { font-size: 1.25rem; margin-top: 2.2rem; border-bottom: 1px solid #8884; padding-bottom: .3rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.6rem; }
+  .updated { color: #6b7280; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { text-align: left; padding: .5rem .6rem; border: 1px solid #8884; vertical-align: top; }
+  th { background: #8881; }
+  code { background: #8882; padding: .1rem .3rem; border-radius: 3px; }
+  a { color: #1f5eff; }
+  @media (prefers-color-scheme: dark) { a { color: #7ea6ff; } }
+  .lede { font-size: 1.05rem; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy — ScreenPeek</h1>
+<p class="updated">Last updated: 18 September 2026</p>
+
+<p class="lede">ScreenPeek is an Android app that watches your phone's front camera while you use it
+and alerts you when someone other than you appears to be looking at your screen.</p>
+
+<h2>Summary</h2>
+<ul>
+  <li><strong>Your camera images never leave your device.</strong> Face detection runs entirely on
+      your phone, and snapshots are stored only in the app's own storage.</li>
+  <li><strong>The app shows banner advertisements</strong> supplied by Google AdMob. AdMob collects
+      advertising data, described below. This is the only part of ScreenPeek that sends anything
+      over the internet.</li>
+  <li>There are no accounts, and we operate no servers of our own. We never receive your photos.</li>
+</ul>
+
+<h2>Camera and photos</h2>
+<p>ScreenPeek analyses frames from the front camera to detect faces. Analysis happens
+<strong>on your device</strong> using a face-detection model bundled inside the app. No frame is
+uploaded, and detection works with the phone offline or in airplane mode.</p>
+
+<p>Most frames are examined and discarded immediately. A photo is saved <strong>only</strong> when
+the app confirms that a second face has been looking at your screen for about a second.</p>
+
+<table>
+  <tr><th>What</th><th>Where</th><th>Who can read it</th></tr>
+  <tr><td>Snapshots of detected peeks (JPEG)</td><td>Your device, in the app's private storage</td><td>You, and any app you explicitly share a photo with</td></tr>
+  <tr><td>A log of detection times (CSV)</td><td>The same private folder</td><td>You</td></tr>
+  <tr><td>Your settings</td><td>Android <code>SharedPreferences</code>, private to the app</td><td>You</td></tr>
+  <tr><td>An optional gallery copy</td><td><code>Pictures/ScreenPeek</code>, only if you enable that setting</td><td>You and any app with photo access</td></tr>
+</table>
+
+<p>Snapshots stay until you delete them from the app's History screen or uninstall the app.
+Uninstalling removes everything in the app's private storage. Copies you chose to save to your
+gallery are <strong>not</strong> removed by uninstalling — delete those from your Photos app.</p>
+
+<p><strong>We never receive, transmit or have access to these photos.</strong></p>
+
+<h2>Advertising (Google AdMob)</h2>
+<p>ScreenPeek displays a banner advertisement at the bottom of its screens, served by Google AdMob.</p>
+
+<p>To serve and measure those ads, AdMob may collect and process:</p>
+<ul>
+  <li>Your device's <strong>advertising ID</strong> (a resettable identifier)</li>
+  <li><strong>Device information</strong> such as model, operating-system version and language</li>
+  <li><strong>Ad interaction data</strong> such as impressions and clicks</li>
+  <li><strong>Coarse location</strong> derived from your IP address (country or region level, not precise location)</li>
+</ul>
+
+<p>AdMob uses this to select ads, measure their performance, and prevent fraud. This data goes to
+Google, not to us. Google's handling of it is governed by their own policies:</p>
+<ul>
+  <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+  <li><a href="https://policies.google.com/technologies/partner-sites">How Google uses data from partner apps</a></li>
+  <li><a href="https://support.google.com/admob/answer/6128543">AdMob and user data</a></li>
+</ul>
+
+<p><strong>Your camera images and snapshots are never used for advertising and are never shared with
+AdMob or any other third party.</strong></p>
+
+<h3>Your choices about ads</h3>
+<ul>
+  <li><strong>Reset or delete your advertising ID:</strong> Android Settings → Privacy → Ads.</li>
+  <li><strong>Opt out of ad personalisation:</strong> the same screen. You will still see ads, but
+      less targeted ones.</li>
+  <li>If you are in a region that requires a consent prompt, ScreenPeek asks for your choice before
+      serving personalised ads, and you can change that choice later from the app's Settings screen.</li>
+</ul>
+
+<h2>Children</h2>
+<p>ScreenPeek is not directed at children and should not be used by anyone under 13.</p>
+
+<h2>Photographs of other people</h2>
+<p>ScreenPeek's purpose is to capture a photo of whoever is looking at your screen. That photo may
+include a person who has not consented to being photographed.</p>
+<ul>
+  <li>Those photos stay on your device and are never transmitted by the app.</li>
+  <li>Android shows a green camera indicator while ScreenPeek is watching, and requires a permanent
+      notification, so the camera is never in use invisibly.</li>
+  <li><strong>You are responsible for how you use these photos.</strong> Laws on photographing and
+      recording people differ by country, and some places restrict recording without consent even on
+      your own device. Please use ScreenPeek only where it is lawful for you to do so.</li>
+</ul>
+
+<h2>Changes</h2>
+<p>If this policy changes, the "Last updated" date changes with it, and the revised policy is
+published at the same URL.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:abdullahkhairy98@gmail.com">abdullahkhairy98@gmail.com</a></p>
+
+</body>
+</html>
